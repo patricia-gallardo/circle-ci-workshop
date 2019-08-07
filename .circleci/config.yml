@@ -25,6 +25,6 @@ workflows:
   test_and_package:
     jobs:
       - test
-      - package
+      - package:
           requires:
             - test
